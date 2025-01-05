@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.subtext{
+    text-align: center;
+    font-size: 16px;
+    margin: 20px;
+}
+.title-price-information {
+    margin-top: 50px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.subtitle-trade-type{
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+.title-trade-type{
+    padding: 20px;
+    font-weight: bold;
+}
+table {
+    border: 1px solid black;
+    margin: 40px;
+}
+th {
+    border: 1px solid black;
+    padding: 10px;
+}
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.container-layout-pair {
+    background: #fff;
+}
+.center{
+    text-align: center;
+}

@@ -39,7 +39,7 @@ class ProfitInformation:
     
     if self.data == None:
       raise ValueError("Data is not set")
-    
+    print(self.data)
     january = self.calculate_profit(self.data["January"])
     february = self.calculate_profit(self.data["February"])
     march = self.calculate_profit(self.data["March"])

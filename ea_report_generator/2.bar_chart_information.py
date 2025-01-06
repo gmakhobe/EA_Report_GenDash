@@ -4,7 +4,7 @@ import sys
 
 from utilities.trade_frequency_and_distribution import TradeFrequencyAndDistribution
 
-json_file_final_refined_data = open(os.path.join(sys.path[0], "final_refined_data/XAUUSD/sells_xauusd.json"), "r")
+json_file_final_refined_data = open(os.path.join(sys.path[0], "final_refined_data/EURUSD_MSI_WeakSignal1_2024/buys_and_sells.json"), "r")
 json_refined_data = json.load(json_file_final_refined_data)
 
 trade_frequency_and_distribution = TradeFrequencyAndDistribution()
@@ -29,5 +29,5 @@ bar_chart_information = {
     "winning_and_losing_trades": trade_frequency_and_distribution.winning_and_losing_trades
 }
 
-with open("information/XAUUSD/2.bar_chart_sells_xauusd.json", "w") as file:
+with open("information/EURUSD_MSI_WeakSignal1_2024/2.bar_chart_buy_and_sell.json", "w") as file:
     json.dump(bar_chart_information, file)

@@ -2,13 +2,14 @@
 const props = defineProps(["SelectedPair", "TradeInformation"]);
 import VueApexCharts from "vue3-apexcharts"
 import { monthlychartOptions, groupPriceDataByMonth, groupEntryDataByMonth } from '../utilities/PairUtils'
-const priceTimeSeries = props.TradeInformation[`${props.SelectedPair}_PRICE`]['PRICE'].map((index) => ({
-    x: new Date(index.date.date),
+
+const priceTimeSeries = props.TradeInformation[`${props.SelectedPair}_MONTHLY_PRICE`]['PRICE'].map((index) => ({
+    x: new Date(index.date),
     y: [
-        parseFloat(index.price.open),
-        parseFloat(index.price.high),
-        parseFloat(index.price.low),
-        parseFloat(index.price.close)
+        parseFloat(index.open),
+        parseFloat(index.high),
+        parseFloat(index.low),
+        parseFloat(index.close)
     ]
 }));
 const chartOptions = {
@@ -60,9 +61,9 @@ const HistoryPriceData = props.TradeInformation[`${props.SelectedPair}_MONTHLY_P
 }).filter(item => item !== null);
 
 const monthlyPriceData = groupPriceDataByMonth(HistoryPriceData);
-const monthlyTradeEntryData = groupEntryDataByMonth(props.TradeInformation.EURUSD_SCATTER_BUYANDSELL.trades, "EntryPrice");
-const monthlyTradeStopLossData = groupEntryDataByMonth(props.TradeInformation.EURUSD_SCATTER_BUYANDSELL.trades, "StopLossPrice");
-const monthlyTradeTakeProfitData = groupEntryDataByMonth(props.TradeInformation.EURUSD_SCATTER_BUYANDSELL.trades, "TakeProfitPrice");
+const monthlyTradeEntryData = groupEntryDataByMonth(props.TradeInformation[`${props.SelectedPair}_SCATTER_BUYANDSELL`].trades, "EntryPrice");
+const monthlyTradeStopLossData = groupEntryDataByMonth(props.TradeInformation[`${props.SelectedPair}_SCATTER_BUYANDSELL`].trades, "StopLossPrice");
+const monthlyTradeTakeProfitData = groupEntryDataByMonth(props.TradeInformation[`${props.SelectedPair}_SCATTER_BUYANDSELL`].trades, "TakeProfitPrice");
 
 function myCustomDate(givenDate){
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];

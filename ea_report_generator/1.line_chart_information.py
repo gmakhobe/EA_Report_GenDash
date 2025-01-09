@@ -5,7 +5,7 @@ import datetime
 import calendar
 from utilities.profit_information import ProfitInformation
 
-json_file_final_refined_data = open(os.path.join(sys.path[0], "final_refined_data/EURUSD_MSI_WeakSignal1_2024/buys_and_sells.json"), "r")
+json_file_final_refined_data = open(os.path.join(sys.path[0], "final_refined_data/EURUSD_MSI_StrongSignal1_2024/buys_and_sells.json"), "r")
 json_refined_data = json.load(json_file_final_refined_data)
 
 def process_trade_data(json_refined_data):
@@ -42,7 +42,7 @@ def process_trade_data(json_refined_data):
         if currentMonth != positionDate.strftime("%Y.%m"):
             # Calculate and append monthly results
             objectTemplate["net_profit"] = objectTemplate["gross_profit"] + objectTemplate["gross_loss"]
-            objectTemplate["net_reward"] = objectTemplate["gross_reward"] - objectTemplate["gross_risk"] if objectTemplate["gross_reward"] > 0 else objectTemplate["gross_reward"] + objectTemplate["gross_risk"]
+            objectTemplate["net_reward"] = objectTemplate["gross_reward"] - objectTemplate["gross_risk"]
             _, numberOfDays = calendar.monthrange(sessionDate.year, sessionDate.month)
             objectTemplate["date"] = f"{numberOfDays} {sessionDate.strftime('%B')} {sessionDate.year}"
             information["PROFIT_BUYANDSELL"].append(objectTemplate.copy())  # Append a copy of the object
@@ -65,8 +65,8 @@ def process_trade_data(json_refined_data):
 
     # Append the last month's data (if any)
     if sessionDate is not None:
-        objectTemplate["net_profit"] = objectTemplate["gross_profit"] - objectTemplate["gross_loss"] if objectTemplate["gross_profit"] > 0 else objectTemplate["gross_profit"] + objectTemplate["gross_loss"]
-        objectTemplate["net_reward"] = objectTemplate["gross_reward"] - objectTemplate["gross_risk"] if objectTemplate["gross_reward"] > 0 else objectTemplate["gross_reward"] + objectTemplate["gross_risk"]
+        objectTemplate["net_profit"] = objectTemplate["gross_profit"] + objectTemplate["gross_loss"]
+        objectTemplate["net_reward"] = objectTemplate["gross_reward"] - objectTemplate["gross_risk"]
         _, numberOfDays = calendar.monthrange(sessionDate.year, sessionDate.month)
         objectTemplate["date"] = f"{numberOfDays} {sessionDate.strftime('%B')} {sessionDate.year}"
         information["PROFIT_BUYANDSELL"].append(objectTemplate.copy())  # Append a copy of the object
@@ -76,5 +76,5 @@ def process_trade_data(json_refined_data):
 results = process_trade_data(json_refined_data)
 print(process_trade_data(json_refined_data))
 
-with open("information/EURUSD_MSI_WeakSignal1_2024/1.line_buys_and_sells.json", "w") as file:
+with open("information/EURUSD_MSI_StrongSignal1_2024/1.line_buys_and_sells.json", "w") as file:
   json.dump(results, file)

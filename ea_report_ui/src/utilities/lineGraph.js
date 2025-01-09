@@ -68,3 +68,56 @@ export const getLineChartInformation = (arrayBuyAndSellProfit, axisType) => {
     };
   }
 }
+
+export const netProfitLineChartOptions = (labels) => {
+  
+  return {
+    stroke: {
+      curve: "straight"
+    },
+    markers: {
+      size: 3
+    },
+    xaxis: {
+      type: "datetime",
+      categories: labels
+    },
+    labels: {
+      style: {
+        colors: "#fff"
+      }
+    },
+    title: {
+      text: undefined,
+      align: "left",
+      margin: 10,
+      offsetX: 0,
+      offsetY: 0,
+      floating: false,
+      style: {
+        fontSize: "14px",
+        fontWeight: "bold",
+        fontFamily: undefined,
+        color: "#fff"
+      }
+    }
+  };
+}
+
+export const netProfitAmountLineChart = (profitInformation) => {
+  let amount = 0;
+  let netProfitArray = [];
+
+  for (let counter = 0; counter < profitInformation.length; counter++) {
+    amount =  Number(amount) + Number(profitInformation[counter]["net_profit"]);
+
+    netProfitArray.push(amount.toFixed(2));
+  }
+
+  return [
+    {
+      name: "Net Profit",
+      data: netProfitArray
+    }
+  ];
+}

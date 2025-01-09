@@ -1,5 +1,14 @@
 {
   "Pairs": [
-    "EURUSD"
+    "EURUSD",
+    "EURUSD_MSI_WeakSignal1_2024",
+    "EURUSD_MSI_WeakSignal1_2023",
+    "EURUSD_MSI_WeakSignal1_2022",
+    "EURUSD_MSI_WeakSignal2_2022",
+    "EURUSD_MSI_WeakSignal2_2023",
+    "EURUSD_MSI_WeakSignal2_2024",
+    "EURUSD_MSI_StrongSignal1_2022",
+    "EURUSD_MSI_StrongSignal1_2023",
+    "EURUSD_MSI_StrongSignal1_2024"
   ]
 }

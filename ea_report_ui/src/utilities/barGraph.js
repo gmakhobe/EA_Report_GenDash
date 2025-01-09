@@ -25,3 +25,27 @@ export const options = {
   responsive: false,
   maintainAspectRatio: false
 };
+
+
+export const monthlyReturnsBarChart = (months, netProfitData, grossProfitData, grossLossData) => {
+  return {
+    labels: months,
+    datasets: [
+      {
+        label: "Net Profit",
+        backgroundColor: "#00e6e6",
+        data: netProfitData
+      },
+      {
+        label: "Gross Profit",
+        backgroundColor: "#00ff00",
+        data: grossProfitData
+      },
+      {
+        label: "Gross Loss",
+        backgroundColor: "#ff0000",
+        data: grossLossData
+      }
+    ]
+  };
+};

@@ -5,8 +5,6 @@ import { getPieChartInformation } from "../utilities/pieGraph";
 const props = defineProps(["SelectedPair", "TradeInformation"]);
 const timeFrame = props.TradeInformation[`${props.SelectedPair}_Timeframe`];
 const TitleBuyAndSell = 'Buys and Sells';
-const TitleBuy = 'Buys';
-const TitleSell = 'Sells';
 
 const chartOptions = {
   dataLabels: {
@@ -28,26 +26,6 @@ const series = [
         }, {
           x: "Net Rewards",
           y: props.TradeInformation[`${props.SelectedPair}_HEAT`].buy_and_sell.net_rewards,
-        }]
-      },
-      {
-        name: "Buys",
-        data: [{
-          x: "Net Winnings",
-          y: props.TradeInformation[`${props.SelectedPair}_HEAT`].buy.net_winnings,
-        }, {
-          x: "Net Rewards",
-          y:  props.TradeInformation[`${props.SelectedPair}_HEAT`].buy.net_rewards,
-        }]
-      },
-      {
-        name: "Sells",
-        data: [{
-          x: "Net Winnings",
-          y: props.TradeInformation[`${props.SelectedPair}_HEAT`].sell.net_winnings,
-        }, {
-          x: "Net Rewards",
-          y: props.TradeInformation[`${props.SelectedPair}_HEAT`].sell.net_rewards,
         }]
       }];
 </script>

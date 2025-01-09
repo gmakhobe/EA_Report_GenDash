@@ -17,11 +17,7 @@ import { getBarChartInformation } from "../utilities/barGraph.js";
 const props = defineProps(["SelectedPair", "TradeInformation"]);
 const timeFrame = props.TradeInformation[`${props.SelectedPair}_Timeframe`];
 const TitleBuyAndSell = 'Buys and Sells';
-const TitleBuy = 'Buys';
-const TitleSell = 'Sells';
 const BuySellTradeFrequency = props.TradeInformation[`${props.SelectedPair}_BAR_BUYANDSELL`];
-const BuyTradeFrequency = props.TradeInformation[`${props.SelectedPair}_BAR_BUY`];
-const SellTradeFrequency = props.TradeInformation[`${props.SelectedPair}_BAR_SELL`];
 const totalBuyAndSellTrades = [
     props.TradeInformation[`${props.SelectedPair}_BAR_BUYANDSELL`].week_day_trades.Monday.total_trades,
     props.TradeInformation[`${props.SelectedPair}_BAR_BUYANDSELL`].week_day_trades.Tuesday.total_trades,
@@ -91,89 +87,7 @@ const buySelTradeFrequencyBarGraphData = barGraph.getBarChartInformation(["Monda
         </table>
     </div>
 
-    <div class="container-layout-pair">
-        <div class="title-trade-type">{{ TitleBuy }}</div>
-        <div class="subtitle-trade-type">General Trade Statistics</div>
-        <table>
-            <tr>
-                <th>Total Trades</th>
-                <th>Average Trades<br/> Per Month</th>
-                <th>Average Trades<br/> Per Quarter</th>
-                <th>Average Trades<br/> Per Semester</th>
-            </tr>
-            <tr>
-                <td>{{ BuyTradeFrequency.total_trades }}</td>
-                <td>{{ BuyTradeFrequency.average_trades_per_month }}</td>
-                <td>{{ BuyTradeFrequency.average_trades_per_quarter }}</td>
-                <td>{{ BuyTradeFrequency.average_trades_per_semester }}</td>
-            </tr>
-        </table>
-        <div class="subtitle-trade-type">Weekday Trades Statistics</div>
-        <Bar class="bar" :data="buySelTradeFrequencyBarGraphData" :options="barGraph.options" />
-        <div class="subtitle-trade-type">Winning and Losing Days Statistics</div>
-        <table>
-            <tr>
-                <th>Highest Winning<br/>Day</th>
-                <th>Lowest Winning<br/>Day</th>
-                <th>Highest Losing<br/>Day</th>
-                <th>Lowest Losing<br/>Day</th>
-            </tr>
-            <tr>
-                <td>{{ BuyTradeFrequency.winning_and_losing_trades.highest_winning_day.day }}</td>
-                <td>{{ BuyTradeFrequency.winning_and_losing_trades.lowest_winning_day.day }}</td>
-                <td>{{ BuyTradeFrequency.winning_and_losing_trades.highest_losing_day.day }}</td>
-                <td>{{ BuyTradeFrequency.winning_and_losing_trades.lowest_losing_day.day }}</td>
-            </tr>
-            <tr>
-                <td>{{ BuyTradeFrequency.winning_and_losing_trades.highest_winning_day.net_percent }}</td>
-                <td>{{ BuyTradeFrequency.winning_and_losing_trades.lowest_winning_day.net_percent }}</td>
-                <td>{{ BuyTradeFrequency.winning_and_losing_trades.highest_losing_day.net_percent }}</td>
-                <td>{{ BuyTradeFrequency.winning_and_losing_trades.lowest_losing_day.net_percent }}</td>
-            </tr>
-        </table>
-    </div>
 
-    <div class="container-layout-pair">
-        <div class="title-trade-type">{{ TitleSell }}</div>
-        <div class="subtitle-trade-type">General Trade Statistics</div>
-        <table>
-            <tr>
-                <th>Total Trades</th>
-                <th>Average Trades<br/> Per Month</th>
-                <th>Average Trades<br/> Per Quarter</th>
-                <th>Average Trades<br/> Per Semester</th>
-            </tr>
-            <tr>
-                <td>{{ SellTradeFrequency.total_trades }}</td>
-                <td>{{ SellTradeFrequency.average_trades_per_month }}</td>
-                <td>{{ SellTradeFrequency.average_trades_per_quarter }}</td>
-                <td>{{ SellTradeFrequency.average_trades_per_semester }}</td>
-            </tr>
-        </table>
-        <div class="subtitle-trade-type">Weekday Trades Statistics</div>
-        <Bar class="bar" :data="buySelTradeFrequencyBarGraphData" :options="barGraph.options" />
-        <div class="subtitle-trade-type">Winning and Losing Days Statistics</div>
-        <table>
-            <tr>
-                <th>Highest Winning<br/>Day</th>
-                <th>Lowest Winning<br/>Day</th>
-                <th>Highest Losing<br/>Day</th>
-                <th>Lowest Losing<br/>Day</th>
-            </tr>
-            <tr>
-                <td>{{ SellTradeFrequency.winning_and_losing_trades.highest_winning_day.day }}</td>
-                <td>{{ SellTradeFrequency.winning_and_losing_trades.lowest_winning_day.day }}</td>
-                <td>{{ SellTradeFrequency.winning_and_losing_trades.highest_losing_day.day }}</td>
-                <td>{{ SellTradeFrequency.winning_and_losing_trades.lowest_losing_day.day }}</td>
-            </tr>
-            <tr>
-                <td>{{ SellTradeFrequency.winning_and_losing_trades.highest_winning_day.net_percent }}</td>
-                <td>{{ SellTradeFrequency.winning_and_losing_trades.lowest_winning_day.net_percent }}</td>
-                <td>{{ SellTradeFrequency.winning_and_losing_trades.highest_losing_day.net_percent }}</td>
-                <td>{{ SellTradeFrequency.winning_and_losing_trades.lowest_losing_day.net_percent }}</td>
-            </tr>
-        </table>
-    </div>
 </template>
 
 <style scoped>

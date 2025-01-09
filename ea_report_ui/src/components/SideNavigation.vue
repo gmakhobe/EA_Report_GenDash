@@ -1,7 +1,7 @@
 <script setup>
     import { reactive, ref } from 'vue'
 
-    const emit = defineEmits(["sideNavigationTabChange"]);
+    const emit = defineEmits(["sideNavigationTabChange", "selectOptionsSelectedItemHandler"]);
     const props = defineProps(["ActivePairs", "SelectedPair"]);
     const sideNavigationState = reactive({
         pair: true,
@@ -29,6 +29,7 @@
 
     function handleElementValueChange(){
         emit("selectOptionsSelectedItemHandler", SelectedPair.value)
+        console.log("selectOptionsSelectedItemHandler", SelectedPair.value)
     }
 </script>
 

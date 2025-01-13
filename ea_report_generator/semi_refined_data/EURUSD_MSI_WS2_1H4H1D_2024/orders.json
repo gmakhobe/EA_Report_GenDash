@@ -1,0 +1,762 @@
+{"data": [
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.33",
+     "EntryPrice": "1.09608",
+     "StopLossPrice": "1.09911",
+     "TakeProfitPrice": "1.09008",
+     "Comment": "",
+     "Time": "2024.01.03 06:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.33",
+     "EntryPrice": "1.09008",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.09008",
+     "Time": "2024.01.03 17:46:32"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.09778",
+     "StopLossPrice": "1.09475",
+     "TakeProfitPrice": "1.10378",
+     "Comment": "",
+     "Time": "2024.01.12 06:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.09475",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.09475",
+     "Time": "2024.01.12 13:48:39"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.08743",
+     "StopLossPrice": "1.0906",
+     "TakeProfitPrice": "1.0814300000000001",
+     "Comment": "",
+     "Time": "2024.01.17 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.0906",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.09060",
+     "Time": "2024.01.18 08:10:40"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.33",
+     "EntryPrice": "1.08379",
+     "StopLossPrice": "1.0868",
+     "TakeProfitPrice": "1.07779",
+     "Comment": "",
+     "Time": "2024.01.25 20:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.33",
+     "EntryPrice": "1.0868",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.08680",
+     "Time": "2024.01.26 13:01:40"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.33",
+     "EntryPrice": "1.07818",
+     "StopLossPrice": "1.08183",
+     "TakeProfitPrice": "1.07218",
+     "Comment": "",
+     "Time": "2024.02.05 00:00:30"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.33",
+     "EntryPrice": "1.07218",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.07218",
+     "Time": "2024.02.13 15:40:41"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.07153",
+     "StopLossPrice": "1.07455",
+     "TakeProfitPrice": "1.06553",
+     "Comment": "",
+     "Time": "2024.02.13 20:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.07455",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.07455",
+     "Time": "2024.02.15 14:32:28"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.33",
+     "EntryPrice": "1.08083",
+     "StopLossPrice": "1.07764",
+     "TakeProfitPrice": "1.08683",
+     "Comment": "",
+     "Time": "2024.02.21 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.33",
+     "EntryPrice": "1.08683",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.08683",
+     "Time": "2024.02.22 10:15:14"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.08567",
+     "StopLossPrice": "1.0824799999999999",
+     "TakeProfitPrice": "1.09167",
+     "Comment": "",
+     "Time": "2024.03.05 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.09167",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.09167",
+     "Time": "2024.03.07 16:55:42"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.35",
+     "EntryPrice": "1.08981",
+     "StopLossPrice": "1.09282",
+     "TakeProfitPrice": "1.08381",
+     "Comment": "",
+     "Time": "2024.03.15 12:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.35",
+     "EntryPrice": "1.08381",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.08381",
+     "Time": "2024.03.19 11:47:37"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.35",
+     "EntryPrice": "1.0841",
+     "StopLossPrice": "1.08711",
+     "TakeProfitPrice": "1.0781",
+     "Comment": "",
+     "Time": "2024.03.22 08:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.35",
+     "EntryPrice": "1.0781",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.07810",
+     "Time": "2024.03.28 11:15:06"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.36",
+     "EntryPrice": "1.08398",
+     "StopLossPrice": "1.08061",
+     "TakeProfitPrice": "1.08998",
+     "Comment": "",
+     "Time": "2024.04.05 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.36",
+     "EntryPrice": "1.08061",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.08061",
+     "Time": "2024.04.05 15:30:39"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.36",
+     "EntryPrice": "1.07454",
+     "StopLossPrice": "1.07755",
+     "TakeProfitPrice": "1.06854",
+     "Comment": "",
+     "Time": "2024.04.11 06:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.36",
+     "EntryPrice": "1.06854",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.06854",
+     "Time": "2024.04.12 09:44:25"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.36",
+     "EntryPrice": "1.06707",
+     "StopLossPrice": "1.06406",
+     "TakeProfitPrice": "1.07307",
+     "Comment": "",
+     "Time": "2024.04.23 12:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.36",
+     "EntryPrice": "1.07307",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.07307",
+     "Time": "2024.04.25 15:30:30"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.37",
+     "EntryPrice": "1.07929",
+     "StopLossPrice": "1.07628",
+     "TakeProfitPrice": "1.08529",
+     "Comment": "",
+     "Time": "2024.05.03 16:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.37",
+     "EntryPrice": "1.07628",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.07628",
+     "Time": "2024.05.03 17:12:02"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.37",
+     "EntryPrice": "1.07983",
+     "StopLossPrice": "1.07682",
+     "TakeProfitPrice": "1.08583",
+     "Comment": "",
+     "Time": "2024.05.13 16:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.37",
+     "EntryPrice": "1.07682",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.07682",
+     "Time": "2024.05.14 15:30:39"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.36",
+     "EntryPrice": "1.08245",
+     "StopLossPrice": "1.08546",
+     "TakeProfitPrice": "1.07645",
+     "Comment": "",
+     "Time": "2024.05.23 18:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.36",
+     "EntryPrice": "1.08546",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.08546",
+     "Time": "2024.05.24 18:25:04"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.36",
+     "EntryPrice": "1.07966",
+     "StopLossPrice": "1.08267",
+     "TakeProfitPrice": "1.07366",
+     "Comment": "",
+     "Time": "2024.05.30 04:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.36",
+     "EntryPrice": "1.08267",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.08267",
+     "Time": "2024.05.30 15:35:35"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.36",
+     "EntryPrice": "1.08842",
+     "StopLossPrice": "1.08535",
+     "TakeProfitPrice": "1.09442",
+     "Comment": "",
+     "Time": "2024.06.05 06:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.36",
+     "EntryPrice": "1.08535",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.08535",
+     "Time": "2024.06.07 15:30:39"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.35",
+     "EntryPrice": "1.07567",
+     "StopLossPrice": "1.07868",
+     "TakeProfitPrice": "1.06967",
+     "Comment": "",
+     "Time": "2024.06.10 12:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.35",
+     "EntryPrice": "1.07868",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.07868",
+     "Time": "2024.06.12 15:30:15"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.35",
+     "EntryPrice": "1.06944",
+     "StopLossPrice": "1.07245",
+     "TakeProfitPrice": "1.06344",
+     "Comment": "",
+     "Time": "2024.06.21 16:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.35",
+     "EntryPrice": "1.07245",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.07245",
+     "Time": "2024.06.24 12:24:37"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.07417",
+     "StopLossPrice": "1.07084",
+     "TakeProfitPrice": "1.08017",
+     "Comment": "",
+     "Time": "2024.07.02 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.08017",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.08017",
+     "Time": "2024.07.03 17:00:28"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.35",
+     "EntryPrice": "1.08514",
+     "StopLossPrice": "1.08819",
+     "TakeProfitPrice": "1.07914",
+     "Comment": "",
+     "Time": "2024.07.24 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.35",
+     "EntryPrice": "1.07914",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.07914",
+     "Time": "2024.08.01 11:10:04"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.36",
+     "EntryPrice": "1.0951",
+     "StopLossPrice": "1.09209",
+     "TakeProfitPrice": "1.1011",
+     "Comment": "",
+     "Time": "2024.08.05 12:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.36",
+     "EntryPrice": "1.09209",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.09209",
+     "Time": "2024.08.06 11:05:02"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.35",
+     "EntryPrice": "1.09942",
+     "StopLossPrice": "1.096",
+     "TakeProfitPrice": "1.10542",
+     "Comment": "",
+     "Time": "2024.08.14 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.35",
+     "EntryPrice": "1.096",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.09600",
+     "Time": "2024.08.15 15:41:40"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.35",
+     "EntryPrice": "1.1072",
+     "StopLossPrice": "1.11025",
+     "TakeProfitPrice": "1.1012",
+     "Comment": "",
+     "Time": "2024.08.30 06:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.35",
+     "EntryPrice": "1.11025",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.11025",
+     "Time": "2024.09.05 14:16:26"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.35",
+     "EntryPrice": "1.10858",
+     "StopLossPrice": "1.10493",
+     "TakeProfitPrice": "1.11458",
+     "Comment": "",
+     "Time": "2024.09.09 00:01:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.35",
+     "EntryPrice": "1.10493",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.10493",
+     "Time": "2024.09.09 11:21:33"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.10101",
+     "StopLossPrice": "1.10404",
+     "TakeProfitPrice": "1.09501",
+     "Comment": "",
+     "Time": "2024.09.11 18:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.10404",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.10404",
+     "Time": "2024.09.12 16:10:36"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.11324",
+     "StopLossPrice": "1.11012",
+     "TakeProfitPrice": "1.11924",
+     "Comment": "",
+     "Time": "2024.09.17 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.11012",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.11012",
+     "Time": "2024.09.18 22:49:31"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.11779",
+     "StopLossPrice": "1.11446",
+     "TakeProfitPrice": "1.12379",
+     "Comment": "",
+     "Time": "2024.09.27 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.11446",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.11446",
+     "Time": "2024.09.27 09:45:36"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.33",
+     "EntryPrice": "1.10628",
+     "StopLossPrice": "1.10944",
+     "TakeProfitPrice": "1.10028",
+     "Comment": "",
+     "Time": "2024.10.02 00:01:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.33",
+     "EntryPrice": "1.10028",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.10028",
+     "Time": "2024.10.04 15:30:15"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.08567",
+     "StopLossPrice": "1.08254",
+     "TakeProfitPrice": "1.09167",
+     "Comment": "",
+     "Time": "2024.10.31 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.09167",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.09167",
+     "Time": "2024.11.05 18:24:23"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.35",
+     "EntryPrice": "1.07379",
+     "StopLossPrice": "1.07683",
+     "TakeProfitPrice": "1.06779",
+     "Comment": "",
+     "Time": "2024.11.06 18:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.35",
+     "EntryPrice": "1.07683",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.07683",
+     "Time": "2024.11.07 09:24:23"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.04872",
+     "StopLossPrice": "1.05175",
+     "TakeProfitPrice": "1.04272",
+     "Comment": "",
+     "Time": "2024.11.21 20:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.04272",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "tp 1.04272",
+     "Time": "2024.11.22 11:09:16"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.35",
+     "EntryPrice": "1.05571",
+     "StopLossPrice": "1.05177",
+     "TakeProfitPrice": "1.06171",
+     "Comment": "",
+     "Time": "2024.11.29 00:00:30"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.35",
+     "EntryPrice": "1.05177",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.05177",
+     "Time": "2024.12.02 07:16:34"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.0588",
+     "StopLossPrice": "1.05523",
+     "TakeProfitPrice": "1.0648",
+     "Comment": "",
+     "Time": "2024.12.06 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.05523",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.05523",
+     "Time": "2024.12.06 17:17:28"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.04726",
+     "StopLossPrice": "1.0503",
+     "TakeProfitPrice": "1.04126",
+     "Comment": "",
+     "Time": "2024.12.12 18:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.0503",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.05030",
+     "Time": "2024.12.12 18:38:25"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.34",
+     "EntryPrice": "1.03485",
+     "StopLossPrice": "1.03869",
+     "TakeProfitPrice": "1.02885",
+     "Comment": "",
+     "Time": "2024.12.19 00:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.34",
+     "EntryPrice": "1.03869",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.03869",
+     "Time": "2024.12.19 04:57:28"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Buy",
+     "Volume": "0.33",
+     "EntryPrice": "1.04222",
+     "StopLossPrice": "1.03918",
+     "TakeProfitPrice": "1.04822",
+     "Comment": "",
+     "Time": "2024.12.27 18:00:00"
+  },
+  {
+     "Symbol": "EURUSD",
+     "Type": "Sell",
+     "Volume": "0.33",
+     "EntryPrice": "1.03918",
+     "StopLossPrice": "0.0",
+     "TakeProfitPrice": "0.0",
+     "Comment": "sl 1.03918",
+     "Time": "2024.12.30 15:58:28"
+  }
+]}

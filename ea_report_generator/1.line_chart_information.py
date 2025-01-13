@@ -5,7 +5,7 @@ import datetime
 import calendar
 from utilities.profit_information import ProfitInformation
 
-json_file_final_refined_data = open(os.path.join(sys.path[0], "final_refined_data/EURUSD_MSI_StrongSignal1_2024/buys_and_sells.json"), "r")
+json_file_final_refined_data = open(os.path.join(sys.path[0], "final_refined_data/EURUSD_MSI_SS1_1H4H1D_2024/buys_and_sells.json"), "r")
 json_refined_data = json.load(json_file_final_refined_data)
 
 def process_trade_data(json_refined_data):
@@ -76,5 +76,5 @@ def process_trade_data(json_refined_data):
 results = process_trade_data(json_refined_data)
 print(process_trade_data(json_refined_data))
 
-with open("information/EURUSD_MSI_StrongSignal1_2024/1.line_buys_and_sells.json", "w") as file:
+with open("information/EURUSD_MSI_SS1_1H4H1D_2024/1.line_buys_and_sells.json", "w") as file:
   json.dump(results, file)

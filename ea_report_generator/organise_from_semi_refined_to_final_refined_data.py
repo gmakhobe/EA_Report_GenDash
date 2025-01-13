@@ -5,8 +5,8 @@ import time
 
 from utilities.refine_deals_and_orders_data import RefineDealsAndOrdersData
 
-json_file_deals = open(os.path.join(sys.path[0], "semi_refined_data/EURUSD_MSI_StrongSignal1_2024/deals.json"), "r")
-json_file_orders = open(os.path.join(sys.path[0], "semi_refined_data/EURUSD_MSI_StrongSignal1_2024/orders.json"), "r")
+json_file_deals = open(os.path.join(sys.path[0], "semi_refined_data/EURUSD_MSI_SS1_1H4H1D_2024/deals.json"), "r")
+json_file_orders = open(os.path.join(sys.path[0], "semi_refined_data/EURUSD_MSI_SS1_1H4H1D_2024/orders.json"), "r")
 json_data_orders = json.load(json_file_orders) 
 json_data_deals = json.load(json_file_deals)
 refine_deals_and_orders_data = RefineDealsAndOrdersData()
@@ -23,5 +23,5 @@ for deals_key, orders_keys in zip(json_data_deals, json_data_orders):
 
   defined_information[deals_key] = refined_data["refined_data"]
 
-with open("final_refined_data/EURUSD_MSI_StrongSignal1_2024/buys_and_sells.json", "w") as file:
+with open("final_refined_data/EURUSD_MSI_SS1_1H4H1D_2024/buys_and_sells.json", "w") as file:
   json.dump(defined_information, file)

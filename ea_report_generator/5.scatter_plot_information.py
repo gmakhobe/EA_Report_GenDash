@@ -5,7 +5,7 @@ import sys
 from utilities.time_duration import get_duration_in_hours
 from utilities.profit_and_stop_calculations import get_take_profit_in_pips, get_stop_loss_pips
 
-json_file_final_refined_data = open(os.path.join(sys.path[0], "final_refined_data/EURUSD_MSI_StrongSignal1_2024/buys_and_sells.json"), "r")
+json_file_final_refined_data = open(os.path.join(sys.path[0], "final_refined_data/EURUSD_MSI_SS1_1H4H1D_2024/buys_and_sells.json"), "r")
 json_refinened_data = json.load(json_file_final_refined_data)
 
 trades_list = []
@@ -57,5 +57,5 @@ information = {
 
 print(information)
 
-with open("information/EURUSD_MSI_StrongSignal1_2024/5.scatter_plot_buys_and_sells.json", "w") as file:
+with open("information/EURUSD_MSI_SS1_1H4H1D_2024/5.scatter_plot_buys_and_sells.json", "w") as file:
   json.dump(information, file)

@@ -1,6 +1,6 @@
-import { PRICE } from "./EURUSD/Price.json";
-import { PROFIT_BUYANDSELL } from "./EURUSD/1.line_buy_and_sell_eurusd.json";
-import { PROFIT_BUY } from "./EURUSD/1.line_buy_eurusd.json";
+import { PRICE } from "./20250123TEST1_EURUSD24/Price.json";
+import { PROFIT_BUYANDSELL } from "./20250123TEST1_EURUSD24/1.line_buy_and_sell_eurusd.json";
+import { PROFIT_BUY } from "./20250123TEST1_EURUSD24/1.line_buy_eurusd.json";
 import { PROFIT_SELL } from "./EURUSD/1.line_sell_eurusd.json";
 import {
   total_trades as buyAndSellTotalTrades,
